@@ -75,6 +75,8 @@ string translate(string& trans_str)
 				break;
 				
 			}
+			//I left out the numbers for others to do if they want to extend the code and get some practice with switch
+			//... this is the first time i've used switch.
 		}
 		return hld;
 
