@@ -1,5 +1,5 @@
 /*
- * Written By: Sean Mikhial Jesky
+ * Written By: Sean M. .J.
  * Date Written: 7/22/19
  * Code Workins: To translate text -> morse Code -> Blinking LED's
  * 				 	that correspond to the that was letter given.
