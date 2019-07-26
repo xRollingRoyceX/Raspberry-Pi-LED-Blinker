@@ -32,3 +32,11 @@ run this with sudo
 
 
 #if i can help let me know, simple :) 
+
+#to Compile:
+
+clang++ -std=c++11 -02 -lwiringPi <Input_Filename>.cpp -o <Output_File_Name>
+g++     -std=c++11 -02 -lwiringPi <Input_Filename>.cpp -o <Output_File_Name>
+gcc     -std=c++11 -02 -lwiringPi <Input_Filename>.cpp -o <Output_File_Name>
+
+this code should use < 0% of the CPU
