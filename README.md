@@ -13,15 +13,24 @@ I also tried to keep the the spirit of C++11 as much as possible.
 and... ive come quite a way in coding :)
 to make running this code easier - use this as a batch file below:
 
+
+
+
 #/bin/bash
 
 #by: sean
 
 #written july 26t.
 
-cd /home/pi/C++/Rbp_Morse_Code_Blinker/   #(basically  place the dir where the file is here instead)
+cd /home/<Dir_n>/<Dir_n>/   #(basically  place the dir where the file is here instead)
 
-sudo test
+sudo <ProgramName>
+
+#end of Program
+
+
+
+
 
 
 rewrite this above, fit it with your needs - after save and in the directory that contains the batch file,
