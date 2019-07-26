@@ -15,7 +15,7 @@ to make running this code easier - use this as a batch file below:
 
 #/bin/bash
 
-#by: sean jesky
+#by: sean
 
 #written july 26t.
 
