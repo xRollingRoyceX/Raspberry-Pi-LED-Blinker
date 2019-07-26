@@ -12,7 +12,7 @@ using std::string;
 
 int main()
 {
-	string s("Thunder");	
+	string s("A, B, C, D, E, F, G, H, I, J, K, L, L, M, N, O, P, Q, R,  S, T, U, V, W, X, Y, Z");	
 	//Translate a string to morse code
 	string t = translate(s);
 	//Print morse code to follow along with the LED blinking
