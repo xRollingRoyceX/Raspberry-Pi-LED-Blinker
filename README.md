@@ -19,7 +19,7 @@ to make running this code easier - use this as a batch file below:
 
 #written july 26t.
 
-cd /home/pi/C++/Rbp_Morse_Code_Blinker/
+cd /home/pi/C++/Rbp_Morse_Code_Blinker/   #(basically  place the dir where the file is here instead)
 
 sudo test
 
