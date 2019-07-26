@@ -7,7 +7,8 @@
 Change the LED pins your using, make sure you are using root, make sure you convert the pins
 correctly - and please be safe :)
 noticed their was no C++ code for this, it was mostly in Python and Java - 
-I thought them both to look a bit sloppy and hard to# follow (KISS)
+I thought them both to look a bit sloppy and hard to follow 
+(KISS, because just because you can make something complex does not mean you should)
 I also tried to keep the the spirit of C++11 as much as possible. 
 and... ive come quite a way in coding :)
 to make running this code easier - use this as a batch file below:
