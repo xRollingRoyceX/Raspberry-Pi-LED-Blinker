@@ -39,15 +39,25 @@ press ls and it will turn green.
 filename references the name of the batch file, not the C++ files
 run this with sudo
 
+----------------------------------------
+#if i can help let me know :) 
+-----------------------------------------
 
-#if i can help let me know, simple :) 
+To Compile (using your favorite compiler:
 
-#to Compile:
-
-clang++ -std=c++11 -02 -lwiringPi <Input_Filename>.cpp -o <Output_File_Name>
-
+clang++ -std=c++11 -02 -lwiringPi <Input_Filename>.cpp -o <Output_File_Name>  #clang is the best hands down (because the way it sounds)
+---------------------
 g++     -std=c++11 -02 -lwiringPi <Input_Filename>.cpp -o <Output_File_Name>
-
+---------------------
 gcc     -std=c++11 -02 -lwiringPi <Input_Filename>.cpp -o <Output_File_Name>
+---------------------
+
+
+
+To make into Smaller .out file 
+--------------------
+strip -s <filename> 
+  12/14kb ~> 9.6kb after the strip
+(its not nessassary but I like doing it to random code to look more "cool" in the folder)
 
 this code should use < 0% of the CPU
