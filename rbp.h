@@ -110,9 +110,10 @@ int morse_light(string morse_message){
 	const unsigned short GPIO_LED_Red = 24;
 	const unsigned short GPIO_LED_Blue = 3;
 		
-	wiringPiSetup();
-	pinMode(0, OUTPUT);
-	short tmp = 0;
+	wiringPiSetup(); //}
+	pinMode(0, OUTPUT);//}set up the raspberry pi GPIO
+	
+	short tmp = 0;//temp is used for flow control
 	for(auto& i : morse_message)
 	{
 		if(i == '.')
@@ -151,12 +152,11 @@ int morse_light(string morse_message){
 		}
 		tmp = 0;		
 	}
-	
 	return 0;
 }
 //if not being run as an infinate loop, call this code to turn off the lights at the end of the program.
 void kill_code(){
-    const unsigned short GPIO_LED_Red = 24;
+	const unsigned short GPIO_LED_Red = 24;
 	const unsigned short GPIO_LED_Blue = 3;
 	//no need to reinit. the lights, they are already on.
 	digitalWrite(GPIO_LED_Red, HIGH);
