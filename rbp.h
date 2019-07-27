@@ -16,9 +16,10 @@ using std::string;
  * https://www.youtube.com/watch?v=fX2W3nNjJIo 1:00:05 ("dont be clever") section (amoungst other sections)
 */
 
-//if you want to use macros:
-//#define  GPIO_LED_Red = 
-//#define  GPIO_LED_Blue =
+//if you want to use a global var:
+
+//const short GPIO_LED_Red = 
+//const short GPIO_LED_Blue = 
 
 char change_case(char& chr)
 {
@@ -101,9 +102,10 @@ string translate(string& trans_str)
 	return hld;
 }
 int morse_light(string morse_message){
-		//i realize that this should prob.  be a global var. but i dont like global vars. 
-		//as i dont understand how the system uses them yet in ASM and everyone says not to use them,
-		//as they say with goto, break, or continue
+		// i realize that this should prob.  be a global var. but i dont like global vars. 
+		// as i dont understand how the system uses them yet in ASM and everyone says not to use them or to use them,
+		// as they say with goto, break, or continue. in this case i should use it, 
+		// as its being used in two places as the same thing, in the same way... idk but i should trust my gut
 	
 	const short GPIO_LED_Red = 24;
 	const short GPIO_LED_Blue = 3;
