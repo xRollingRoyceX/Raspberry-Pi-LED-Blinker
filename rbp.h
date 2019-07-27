@@ -16,10 +16,10 @@ using std::string;
  * https://www.youtube.com/watch?v=fX2W3nNjJIo 1:00:05 ("dont be clever") section (amoungst other sections)
 */
 
-//if you want to use a global var:
+//if you want to use a global vars:
 
-//const short GPIO_LED_Red = 
-//const short GPIO_LED_Blue = 
+//const short GPIO_LED_Red = [GPIO #]
+//const short GPIO_LED_Blue = [GPIO #]
 
 char change_case(char& chr)
 {
@@ -150,6 +150,7 @@ int morse_light(string morse_message){
 				delay(1500);
 		}
 		tmp = 0;		
+	}
 	
 	return 0;
 }
