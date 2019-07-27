@@ -18,8 +18,8 @@ using std::string;
 
 //if you want to use a global vars:
 
-//const short GPIO_LED_Red = [GPIO #]
-//const short GPIO_LED_Blue = [GPIO #]
+//const unsigned short GPIO_LED_Red = [GPIO #]
+//const unsigned short GPIO_LED_Blue = [GPIO #]
 
 char change_case(char& chr)
 {
@@ -107,8 +107,8 @@ int morse_light(string morse_message){
 		// as they say with goto, break, or continue. in this case i should use it, 
 		// as its being used in two places as the same thing, in the same way... idk but i should trust my gut
 	
-	const short GPIO_LED_Red = 24;
-	const short GPIO_LED_Blue = 3;
+	const unsigned short GPIO_LED_Red = 24;
+	const unsigned short GPIO_LED_Blue = 3;
 		
 	wiringPiSetup();
 	pinMode(0, OUTPUT);
@@ -156,13 +156,13 @@ int morse_light(string morse_message){
 }
 //if not being run as an infinate loop, call this code to turn off the lights at the end of the program.
 void kill_code(){
-    const short GPIO_LED_Red = 24;
-	const short GPIO_LED_Blue = 3;
-		
-	//wiringPiSetup();
-	//pinMode(0, OUTPUT);
-	
+    const unsigned short GPIO_LED_Red = 24;
+	const unsigned short GPIO_LED_Blue = 3;
+	//no need to reinit. the lights, they are already on.
 	digitalWrite(GPIO_LED_Red, HIGH);
 	digitalWrite(GPIO_LED_Blue, HIGH);
 }
+//LastResort:
+//if code does not work,  you may need to start GPIO pins x, y to start the process,
+//then run this code. Or message me and I just might be able to help 
 
