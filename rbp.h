@@ -31,7 +31,7 @@ char change_case(char& chr)
 
 //assumes a string w/o numbers and special characteres.
 //TODO: if-else regarding errors and inputs
-string translate(string& trans_str)
+string translate(string& trans_str)  //this does not need to be a reference... im about 99% sure, we're not modifying the value
 {
 	string hld = " ";
 	for(char i = 0; i != trans_str.size(); ++i)
