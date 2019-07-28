@@ -1,4 +1,4 @@
-# Raspberry-Pi-LED-Blinker
+# Raspberry Pi GPIO, Beginner++ LED Blinker
 
 #Raspberry Pi LED Morse Code Blinker
 
