@@ -24,7 +24,7 @@ to make running this code easier - use this as a batch file below:
 
 cd /home/<Dir_n>/<Dir_n>/   #(basically  place the dir where the file is here instead)
 
-sudo <ProgramName>
+sudo [ProgramName]
 
 #end of Program
 
