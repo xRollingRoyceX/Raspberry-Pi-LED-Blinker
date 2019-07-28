@@ -29,7 +29,7 @@ sudo [ProgramName]
 #end of Program
 
 
-
+# chmod +x [filename]
 
 
 
